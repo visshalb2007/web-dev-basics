@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Master File</title>
+
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- HEADINGS -->
+    <!-- ========================= -->
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- PARAGRAPH -->
+    <!-- ========================= -->
+
+    <p>
+        This is a paragraph.
+    </p>
+
+    <br>
+
+    <p>
+        This is another paragraph
+        with a line break.
+    </p>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- TEXT FORMATTING -->
+    <!-- ========================= -->
+
+    <p><b>Bold Text</b></p>
+
+    <p><strong>Strong Text</strong></p>
+
+    <p><i>Italic Text</i></p>
+
+    <p><em>Emphasized Text</em></p>
+
+    <p><u>Underlined Text</u></p>
+
+    <p><small>Small Text</small></p>
+
+    <p><mark>Highlighted Text</mark></p>
+
+    <p><del>Deleted Text</del></p>
+
+    <p>H<sub>2</sub>O</p>
+
+    <p>x<sup>2</sup></p>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- LINKS -->
+    <!-- ========================= -->
+
+    <a href="https://google.com">
+        Open Google
+    </a>
+
+    <br><br>
+
+    <a href="https://youtube.com"
+       target="_blank">
+        Open YouTube in New Tab
+    </a>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- IMAGES -->
+    <!-- ========================= -->
+
+    <img
+        src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+        alt="Cute Cat"
+        width="300">
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- LISTS -->
+    <!-- ========================= -->
+
+    <h2>Ordered List</h2>
+
+    <ol>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+
+    <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+    </ul>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- TABLE -->
+    <!-- ========================= -->
+
+    <table border="1"
+           cellpadding="10">
+
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>Visshal</td>
+            <td>18</td>
+            <td>Mumbai</td>
+        </tr>
+
+        <tr>
+            <td>Alex</td>
+            <td>20</td>
+            <td>Delhi</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- BUTTONS -->
+    <!-- ========================= -->
+
+    <button>
+        Click Me
+    </button>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- FORMS -->
+    <!-- ========================= -->
+
+    <h2>HTML Form</h2>
+
+    <form>
+
+        <!-- Text Input -->
+
+        <label>
+            Name:
+        </label>
+
+        <input type="text"
+               placeholder="Enter name">
+
+        <br><br>
+
+        <!-- Email -->
+
+        <label>
+            Email:
+        </label>
+
+        <input type="email"
+               placeholder="Enter email">
+
+        <br><br>
+
+        <!-- Password -->
+
+        <label>
+            Password:
+        </label>
+
+        <input type="password"
+               placeholder="Enter password">
+
+        <br><br>
+
+        <!-- Number -->
+
+        <label>
+            Age:
+        </label>
+
+        <input type="number">
+
+        <br><br>
+
+        <!-- Date -->
+
+        <label>
+            Date:
+        </label>
+
+        <input type="date">
+
+        <br><br>
+
+        <!-- Radio -->
+
+        <label>
+            Gender:
+        </label>
+
+        <input type="radio"
+               name="gender"> Male
+
+        <input type="radio"
+               name="gender"> Female
+
+        <br><br>
+
+        <!-- Checkbox -->
+
+        <label>
+            Skills:
+        </label>
+
+        <input type="checkbox"> Python
+
+        <input type="checkbox"> HTML
+
+        <input type="checkbox"> AI
+
+        <br><br>
+
+        <!-- Dropdown -->
+
+        <label>
+            Country:
+        </label>
+
+        <select>
+
+            <option>India</option>
+
+            <option>USA</option>
+
+            <option>Japan</option>
+
+        </select>
+
+        <br><br>
+
+        <!-- Textarea -->
+
+        <label>
+            Message:
+        </label>
+
+        <br>
+
+        <textarea rows="5"
+                  cols="30">
+        </textarea>
+
+        <br><br>
+
+        <!-- File Upload -->
+
+        <input type="file">
+
+        <br><br>
+
+        <!-- Range -->
+
+        <label>
+            Volume:
+        </label>
+
+        <input type="range">
+
+        <br><br>
+
+        <!-- Color -->
+
+        <label>
+            Pick Color:
+        </label>
+
+        <input type="color">
+
+        <br><br>
+
+        <!-- Submit -->
+
+        <input type="submit">
+
+        <!-- Reset -->
+
+        <input type="reset">
+
+    </form>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- DIV AND SPAN -->
+    <!-- ========================= -->
+
+    <div>
+
+        <h2>Div Section</h2>
+
+        <p>
+            This is inside a div.
+        </p>
+
+    </div>
+
+    <p>
+        My favorite color is
+        <span>Blue</span>
+    </p>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- SEMANTIC TAGS -->
+    <!-- ========================= -->
+
+    <header>
+
+        <h1>
+            Website Header
+        </h1>
+
+    </header>
+
+    <nav>
+
+        <a href="#">Home</a>
+
+        <a href="#">About</a>
+
+        <a href="#">Contact</a>
+
+    </nav>
+
+    <main>
+
+        <section>
+
+            <h2>
+                Main Section
+            </h2>
+
+            <p>
+                This is a section.
+            </p>
+
+        </section>
+
+        <article>
+
+            <h2>
+                Article
+            </h2>
+
+            <p>
+                This is an article.
+            </p>
+
+        </article>
+
+        <aside>
+
+            Sidebar Content
+
+        </aside>
+
+    </main>
+
+    <footer>
+
+        Copyright 2026
+
+    </footer>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- AUDIO -->
+    <!-- ========================= -->
+
+    <audio controls>
+
+        <source src="audio.mp3"
+                type="audio/mpeg">
+
+    </audio>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- VIDEO -->
+    <!-- ========================= -->
+
+    <video width="400"
+           controls>
+
+        <source src="video.mp4"
+                type="video/mp4">
+
+    </video>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- IFRAME -->
+    <!-- ========================= -->
+
+    <iframe
+        src="https://example.com"
+        width="400"
+        height="200">
+    </iframe>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- DETAILS -->
+    <!-- ========================= -->
+
+    <details>
+
+        <summary>
+            Click to Expand
+        </summary>
+
+        <p>
+            Hidden information here.
+        </p>
+
+    </details>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- PROGRESS -->
+    <!-- ========================= -->
+
+    <label>
+        Progress:
+    </label>
+
+    <progress value="70"
+              max="100">
+    </progress>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- METER -->
+    <!-- ========================= -->
+
+    <label>
+        Disk Usage:
+    </label>
+
+    <meter value="0.6">
+    </meter>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- CODE -->
+    <!-- ========================= -->
+
+    <pre>
+This text
+preserves spaces
+and line breaks.
+    </pre>
+
+    <code>
+print("Hello World")
+    </code>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- ABBREVIATION -->
+    <!-- ========================= -->
+
+    <p>
+
+        <abbr title="HyperText Markup Language">
+            HTML
+        </abbr>
+
+        is awesome.
+
+    </p>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- QUOTATION -->
+    <!-- ========================= -->
+
+    <blockquote>
+        This is a blockquote.
+    </blockquote>
+
+    <q>
+        This is a short quote.
+    </q>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- ADDRESS -->
+    <!-- ========================= -->
+
+    <address>
+
+        Written by Visshal<br>
+
+        Mumbai, India
+
+    </address>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- MARQUEE (OLD TAG) -->
+    <!-- ========================= -->
+
+    <marquee>
+
+        Moving Text
+
+    </marquee>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- HTML ENTITIES -->
+    <!-- ========================= -->
+
+    <p>&lt;html&gt;</p>
+
+    <p>&copy; 2026</p>
+
+    <p>&hearts;</p>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- EMBED -->
+    <!-- ========================= -->
+
+    <embed src="sample.pdf"
+           width="400"
+           height="300">
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- CANVAS -->
+    <!-- ========================= -->
+
+    <canvas id="myCanvas"
+            width="200"
+            height="100"
+            style="border:1px solid black;">
+    </canvas>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- SVG -->
+    <!-- ========================= -->
+
+    <svg width="200"
+         height="100">
+
+        <circle cx="50"
+                cy="50"
+                r="40"
+                stroke="black"
+                stroke-width="3"
+                fill="red" />
+
+    </svg>
+
+    <hr>
+
+    <!-- ========================= -->
+    <!-- FINAL SECTION -->
+    <!-- ========================= -->
+
+    <h1>
+        HTML Master File Completed
+    </h1>
+
+</body>
+
+</html>
