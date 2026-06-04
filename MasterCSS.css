@@ -1,0 +1,451 @@
+/* ========================= */
+/* GLOBAL */
+/* ========================= */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, sans-serif;
+
+    background:#e5e7eb;
+
+    color:#333;
+
+    line-height:1.6;
+}
+
+/* ========================= */
+/* CONTAINER */
+/* ========================= */
+
+.container{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ========================= */
+/* HEADER */
+/* ========================= */
+
+header{
+
+    text-align:center;
+
+    margin-bottom:30px;
+}
+
+header h1{
+
+    color:#2563eb;
+
+    margin-bottom:10px;
+}
+
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
+
+nav{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    margin-bottom:40px;
+
+    background:#2563eb;
+
+    padding:15px;
+
+    border-radius:10px;
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+}
+
+nav a:hover{
+
+    text-decoration:underline;
+}
+
+/* ========================= */
+/* SECTIONS */
+/* ========================= */
+
+section,
+article,
+aside{
+
+    margin-bottom:30px;
+
+    padding:25px;
+
+    background:#f9fafb;
+
+    border-radius:15px;
+}
+
+/* ========================= */
+/* HEADINGS */
+/* ========================= */
+
+h1,h2,h3,h4,h5,h6{
+
+    margin-bottom:15px;
+}
+
+h2{
+
+    color:#2563eb;
+}
+
+/* ========================= */
+/* PARAGRAPH */
+/* ========================= */
+
+p{
+
+    margin-bottom:10px;
+}
+
+/* ========================= */
+/* LINKS */
+/* ========================= */
+
+a{
+
+    color:#2563eb;
+}
+
+/* ========================= */
+/* IMAGE */
+/* ========================= */
+
+img{
+
+    width:100%;
+
+    max-width:500px;
+
+    border-radius:15px;
+
+    display:block;
+
+    margin-top:20px;
+}
+
+/* ========================= */
+/* LISTS */
+/* ========================= */
+
+ul,
+ol{
+
+    margin-left:30px;
+}
+
+/* ========================= */
+/* TABLE */
+/* ========================= */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+}
+
+th,
+td{
+
+    border:1px solid #ccc;
+
+    padding:12px;
+
+    text-align:center;
+}
+
+th{
+
+    background:#2563eb;
+
+    color:white;
+}
+
+/* ========================= */
+/* BUTTON */
+/* ========================= */
+
+button,
+input[type="submit"]{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin-top:15px;
+}
+
+button:hover,
+input[type="submit"]:hover{
+
+    background:#1d4ed8;
+}
+
+/* ========================= */
+/* FORM */
+/* ========================= */
+
+form{
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+label{
+
+    margin-top:15px;
+
+    margin-bottom:5px;
+
+    font-weight:bold;
+}
+
+input,
+textarea,
+select{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+}
+
+/* ========================= */
+/* INLINE GROUP */
+/* ========================= */
+
+.inline-group{
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:center;
+
+    margin-top:10px;
+}
+
+/* ========================= */
+/* AUDIO + VIDEO */
+/* ========================= */
+
+audio,
+video{
+
+    width:100%;
+
+    margin-top:15px;
+}
+
+/* ========================= */
+/* IFRAME */
+/* ========================= */
+
+iframe{
+
+    width:100%;
+
+    height:300px;
+
+    border:none;
+
+    border-radius:10px;
+
+    margin-top:15px;
+}
+
+/* ========================= */
+/* DETAILS */
+/* ========================= */
+
+details{
+
+    background:white;
+
+    padding:15px;
+
+    border-radius:10px;
+}
+
+summary{
+
+    cursor:pointer;
+
+    font-weight:bold;
+}
+
+/* ========================= */
+/* PROGRESS */
+/* ========================= */
+
+progress{
+
+    width:100%;
+
+    height:30px;
+}
+
+/* ========================= */
+/* CODE */
+/* ========================= */
+
+pre{
+
+    background:#0f172a;
+
+    color:#00ff88;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    overflow:auto;
+
+    margin-bottom:15px;
+}
+
+code{
+
+    background:#eee;
+
+    padding:5px 10px;
+
+    border-radius:5px;
+}
+
+/* ========================= */
+/* BLOCKQUOTE */
+/* ========================= */
+
+blockquote{
+
+    border-left:5px solid #2563eb;
+
+    padding-left:15px;
+
+    font-style:italic;
+}
+
+/* ========================= */
+/* ADDRESS */
+/* ========================= */
+
+address{
+
+    font-style:italic;
+}
+
+/* ========================= */
+/* MARQUEE */
+/* ========================= */
+
+marquee{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    margin-top:20px;
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+footer{
+
+    text-align:center;
+
+    margin-top:40px;
+
+    padding:20px;
+
+    background:#111827;
+
+    color:white;
+
+    border-radius:10px;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media(max-width:768px){
+
+    .container{
+
+        width:95%;
+
+        padding:20px;
+    }
+
+    nav{
+
+        flex-direction:column;
+
+        align-items:center;
+    }
+
+    .inline-group{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+    }
+}
